@@ -1,4 +1,3 @@
-/* ================= GLOBAL ================= */
 body {
   background: #000;
   color: #fff;
@@ -47,7 +46,7 @@ body {
 .logo {
   font-size: 35px;
   font-weight: 600;
-  color: #3114c2;
+  color: #785efa;
 }
 
 .navbar ul {
@@ -172,6 +171,7 @@ body {
   background: rgba(255,255,255,0.05);
   border-radius: 18px;
   padding: 28px;
+  font-size: 21px;
   backdrop-filter: blur(12px);
   border: 1px solid rgba(255,255,255,0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -188,18 +188,19 @@ body {
   box-shadow: 0 20px 40px rgba(159,140,255,0.25);
 }
 
-/* ================= EDUCATION (RIGHT SIDE YEAR / %) ================= */
+/* ================= EDUCATION ================= */
 .edu-card {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 20px;
+
 }
 
 .edu-right {
   text-align: right;
   color: #9f8cff;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .edu-left {
@@ -227,7 +228,7 @@ body {
 }
 
 .score strong {
-  font-size: 16px;
+  font-size: 17px;
   color: #ffffff;
 }
 
@@ -264,6 +265,8 @@ body {
   backdrop-filter: blur(14px);
   position: relative;
   z-index: 2;
+  font-size: 21px;
+
 
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -388,6 +391,8 @@ body {
   justify-content: center;
   margin-bottom: 40px;
   flex-wrap: wrap;
+  font-size: 21px;
+
 }
 
 .tab {
@@ -415,7 +420,7 @@ body {
   display: block;
 }
 
-/* ================= GRID (COMMON FOR ALL) ================= */
+/* ================= GRID  ================= */
 
 .project-grid,
 .project-group {
@@ -548,6 +553,8 @@ details p {
   margin-bottom: 18px;
   backdrop-filter: blur(14px);
   transition: transform 0.3s, box-shadow 0.3s;
+  font-size: 21px;
+
 }
 
 .cert-card:hover {
