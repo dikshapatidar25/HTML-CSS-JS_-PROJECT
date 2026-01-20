@@ -540,6 +540,23 @@ details p {
   color: #d6d6d6;
 }
 
+.project-btn {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 8px 16px;
+  background-color: #6c63ff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+.project-btn:hover {
+  background-color: #554fe8;
+}
+
+
 
 
 /* -------- CERTIFICATIONS -------- */
